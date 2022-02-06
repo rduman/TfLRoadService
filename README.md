@@ -3,7 +3,7 @@
 ## 1- Download and install.
 
 - [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) SDK and .NET Runtime. _(Required)_
-- Visual Studio 2022 [Visual Studio](https://visualstudio.microsoft.com/vs/community/)
+- Visual Studio 2022 [Visual Studio](https://visualstudio.microsoft.com/vs/community/)  _(Required)_
 
 
 
