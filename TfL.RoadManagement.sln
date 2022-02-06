@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.RoadStatus", "TfL.RoadManagement.RoadStatus\TfL.RoadManagement.RoadStatus.csproj", "{DA50A96A-3EF3-42CD-9D0E-042E576E22D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{92ED8AFD-F381-4CEA-BEA7-A4A551E28064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.TFL", "TfL.RoadManagement.TFL\TfL.RoadManagement.TFL.csproj", "{C2CB1851-9575-4DAF-9B81-58C40E17A6C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.TFL.UnitTests", "TfL.RoadManagement.TFL.UnitTests\TfL.RoadManagement.TFL.UnitTests.csproj", "{3D0FC189-F5FC-452F-8B47-0EB0517EF73E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.Application", "TfL.RoadManagement.Application\TfL.RoadManagement.Application.csproj", "{5776D4BA-3EA6-4C8C-9556-FEF54449DEE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.Application.UnitTests", "TfL.RoadManagement.Application.UnitTests\TfL.RoadManagement.Application.UnitTests.csproj", "{91B493AC-1EB7-4385-8791-F252FD13FA48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.TestDataBuilders", "TfL.RoadManagement.TestDataBuilders\TfL.RoadManagement.TestDataBuilders.csproj", "{8AA5FB87-0CDE-4560-A391-63323C5E6F02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TfL.RoadManagement.RoadStatus.AcceptanceTests", "TfL.RoadManagement.RoadStatus.AcceptanceTests\TfL.RoadManagement.RoadStatus.AcceptanceTests.csproj", "{3183F4C2-971F-4A7A-AC3D-3214196906A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{2A9574E7-A16D-43A7-93FA-B64749487D1B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA50A96A-3EF3-42CD-9D0E-042E576E22D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA50A96A-3EF3-42CD-9D0E-042E576E22D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA50A96A-3EF3-42CD-9D0E-042E576E22D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA50A96A-3EF3-42CD-9D0E-042E576E22D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CB1851-9575-4DAF-9B81-58C40E17A6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CB1851-9575-4DAF-9B81-58C40E17A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CB1851-9575-4DAF-9B81-58C40E17A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CB1851-9575-4DAF-9B81-58C40E17A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0FC189-F5FC-452F-8B47-0EB0517EF73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0FC189-F5FC-452F-8B47-0EB0517EF73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0FC189-F5FC-452F-8B47-0EB0517EF73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0FC189-F5FC-452F-8B47-0EB0517EF73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5776D4BA-3EA6-4C8C-9556-FEF54449DEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5776D4BA-3EA6-4C8C-9556-FEF54449DEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5776D4BA-3EA6-4C8C-9556-FEF54449DEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5776D4BA-3EA6-4C8C-9556-FEF54449DEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B493AC-1EB7-4385-8791-F252FD13FA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B493AC-1EB7-4385-8791-F252FD13FA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B493AC-1EB7-4385-8791-F252FD13FA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B493AC-1EB7-4385-8791-F252FD13FA48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA5FB87-0CDE-4560-A391-63323C5E6F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA5FB87-0CDE-4560-A391-63323C5E6F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA5FB87-0CDE-4560-A391-63323C5E6F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA5FB87-0CDE-4560-A391-63323C5E6F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3183F4C2-971F-4A7A-AC3D-3214196906A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3183F4C2-971F-4A7A-AC3D-3214196906A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3183F4C2-971F-4A7A-AC3D-3214196906A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3183F4C2-971F-4A7A-AC3D-3214196906A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2CB1851-9575-4DAF-9B81-58C40E17A6C1} = {92ED8AFD-F381-4CEA-BEA7-A4A551E28064}
+		{3D0FC189-F5FC-452F-8B47-0EB0517EF73E} = {92ED8AFD-F381-4CEA-BEA7-A4A551E28064}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89AF2311-1FF0-4961-83F4-2D057C47E9BC}
+	EndGlobalSection
+EndGlobal
