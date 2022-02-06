@@ -1,19 +1,19 @@
 
 
-# 1- Download and install.
+## 1- Download and install.
 
 - [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) SDK and .NET Runtime. _(Required)_
 - Visual Studio 2022 [Visual Studio](https://visualstudio.microsoft.com/vs/community/)
 
 
 
-# 2- Build Project with Visual Studio
+## 2- Build Project with Visual Studio
 
 - Add your AppId and ApiKey to the "appsettings.json" file in the TfL.RoadManagement\TfL.RoadManagement.RoadStatus
 - Build TfL.RoadManagement.RoadStatus console app in "Debug" mode
 
 
-# 3- Samples
+## 3- Samples
 
 ## Valid Road
 - Open command line and pass this path
